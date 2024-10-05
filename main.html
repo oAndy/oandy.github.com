@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Counter with Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="open-modal-btn">Add Counter</button>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal-btn" class="close">&times;</span>
+      <h2>Add a New Counter</h2>
+      <input type="text" id="counter-title" placeholder="Enter counter title">
+      <input type="number" id="step-value" placeholder="Step size" value="1">
+      <button id="add-counter-btn">Add Counter</button>
+    </div>
+  </div>
+
+  <div id="counter-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
